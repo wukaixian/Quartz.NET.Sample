@@ -3,15 +3,15 @@ Quartz &amp; Topshelf Use Sample
 ###1、创建控制台应用程序
 ###2、引用Quartz
 <code>
-PM>Install-Package Quartz
+Install-Package Quartz
 </code>
 ###3、引用Topshelf（结合Topshelf将任务安装成服务）
 <code>
-PM>Install-Package Topshelf
+Install-Package Topshelf
 </code>
 ###4引用Common.Logging.Log4Net1213（日志记录）
 <code>
-PM>Install-Package Common.Logging.Log4Net1213 
+Install-Package Common.Logging.Log4Net1213 
 </code>
 ###4、添加Quartz配置
 添加quartz_jobs.xml、quartz.config，并将两个文件属性设置为始终复制。
