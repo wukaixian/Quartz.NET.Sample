@@ -20,7 +20,10 @@ Quartz &amp; Topshelf Use Sample
 ## 10 将任务部署为Window服务
 执行服务安装
 > 安装：Quartz.NET.Sample.exe install
->　启动：Quartz.NET.Sample.exe start
-  停止：Quartz.NET.Sample.exe stop
-  卸载：Quartz.NET.Sample.exe uninstall
+
+> 启动：Quartz.NET.Sample.exe start
+
+> 停止：Quartz.NET.Sample.exe stop
+
+> 卸载：Quartz.NET.Sample.exe uninstall
 
