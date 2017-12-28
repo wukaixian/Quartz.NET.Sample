@@ -2,9 +2,7 @@
 Quartz &amp; Topshelf Use Sample
 ## 1、创建控制台应用程序
 ## 2、引用Quartz
-<code>
-Install-Package Quartz
-</code>
+> Install-Package Quartz
 ## 3、引用Topshelf（结合Topshelf将任务安装成服务）
 <code>
 Install-Package Topshelf
