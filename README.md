@@ -2,15 +2,11 @@
 Quartz &amp; Topshelf Use Sample
 ## 1、创建控制台应用程序
 ## 2、引用Quartz
-> Install-Package Quartz
+> PM>Install-Package Quartz
 ## 3、引用Topshelf（结合Topshelf将任务安装成服务）
-<code>
-Install-Package Topshelf
-</code>
+> PM>Install-Package Topshelf
 ## 4、引用Common.Logging.Log4Net1213（日志记录）
-<code>
-Install-Package Common.Logging.Log4Net1213 
-</code>
+> PM>Install-Package Common.Logging.Log4Net1213 
 ## 5、添加Quartz配置
 添加quartz_jobs.xml、quartz.config，并将两个文件属性设置为始终复制。
 ## 6、添加TestJob
@@ -23,10 +19,8 @@ Install-Package Common.Logging.Log4Net1213
 直接启动控制台，任务程序启动，完成
 ## 10 将任务部署为Window服务
 执行服务安装
-<code>
-安装：Quartz.NET.Sample.exe install
-启动：Quartz.NET.Sample.exe start
-停止：Quartz.NET.Sample.exe stop
-卸载：Quartz.NET.Sample.exe uninstall
-</code>
+> 安装：Quartz.NET.Sample.exe install
+> 启动：Quartz.NET.Sample.exe start
+> 停止：Quartz.NET.Sample.exe stop
+> 卸载：Quartz.NET.Sample.exe uninstall
 
